@@ -1,3 +1,6 @@
+Date: 9/17/2022
+Intelligent Virtual Agent Homework 3
+Contributors: Michael Fababeir, Omar Cobas
 # Stanford Research Institute Problem Solver (STRIPS)
 STRIPS is a First-Order Logic (FOL) language with an associated linear (total order) solver. Note that linear solvers have a few well-known issues, such as not dealing well with [http://en.wikipedia.org/wiki/Sussman_Anomaly](Sussman's Anomaly). Nevertheless, when learning planning algorithms, most students learn STRIPS first.
 
