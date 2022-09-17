@@ -1,0 +1,19 @@
+Initial state: hasCake(Red), knowGranny(Red), alive(Wolf), knowGranny(Wolf)
+Goal state: hasCake(Granny), excaped(Red), escaped(Granny), !alive(Wolf)
+
+Actions:
+               // X gives the cake to Y
+               GiveCake(X, Y)
+               Preconditions: hasCake(X)
+               Postconditions: hasCake(Y), !hasCake(X)
+
+               // Hunter kills the Wolf
+               HunterKillWolf(Wolf)
+               Preconditions:
+               Postconditions: !alive(Wolf)
+
+               // Escape from the Wolf
+               EscapeFromWolf(X)
+               Preconditions: !alive(Wolf), eaten(X)
+               Postconditions: escaped(X), !eaten(X)
+               
