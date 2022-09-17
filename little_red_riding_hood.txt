@@ -16,4 +16,13 @@ Actions:
                EscapeFromWolf(X)
                Preconditions: !alive(Wolf), eaten(X)
                Postconditions: escaped(X), !eaten(X)
+
+               // Remove Cape
+               RemoveCape(X)
+               Preconditions: !excaped(X)
+               Postconditions: excaped(X)
                
+               // X follows Y
+               Follows(X, Y)
+               Preconditions:
+               Postconditions: followed(Y), follower(X)

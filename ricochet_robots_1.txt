@@ -1,0 +1,100 @@
+Initial state: BottomLeft(True)
+Goal state: TopRight(True)
+
+Actions:
+               MoveUpBottomLeft(Y)
+               Preconditions: BottomLeft(True)
+               Postconditions: MidLeft(True)
+
+               MoveRightBottomLeft(Y)
+               Preconditions: BottomLeft(True)
+               Postconditions: BottomMiddle(True)
+               
+               MoveLeftBottomCenter(Y)
+               Preconditions: BottomCenter(True)
+               Postconditions: BottomLeft(True)
+               
+               MoveRightBottomCenter(Y)
+               Preconditions: BottomCenter(True)
+               Postconditions: BottomRight(True)
+
+               MoveUpBottomCenter(Y)
+               Preconditions: BottomCenter(True)
+               Postconditions: MidCenter(True)
+               
+               MoveUpBottomRight(Y)
+               Preconditions: BottomRight(True)
+               Postconditions: MidRight(True)
+
+               MoveLeftBottomRight(Y)
+               Preconditions: BottomRight(True)
+               Postconditions: BottomMiddle(True)
+
+               MoveDownMidLeft(Y)
+               Preconditions: MidLeft(True)
+               Postconditions: BottomLeft(True)
+               
+               MoveUpMidLeft(Y)
+               Preconditions: MidLeft(True)
+               Postconditions: TopLeft(True)
+
+               MoveRightMidLeft(Y)
+               Preconditions: MidLeft(True)
+               Postconditions: MidCenter(True)
+               
+               MoveDownMidCenter(Y)
+               Preconditions: MidCenter(True)
+               Postconditions: BottomCenter(True)
+               
+               MoveUpMidCenter(Y)
+               Preconditions: MidCenter(True)
+               Postconditions: TopCenter(True)
+
+               MoveRightMidCenter(Y)
+               Preconditions: MidCenter(True)
+               Postconditions: MidRight(True)
+               
+               MoveLeftMidCenter(Y)
+               Preconditions: MidCenter(True)
+               Postconditions: MidLeft(True)
+               
+               MoveDownMidRight(Y)
+               Preconditions: MidRight(True)
+               Postconditions: BottomRight(True)
+               
+               MoveUpMidRight(Y)
+               Preconditions: MidRight(True)
+               Postconditions: TopRight(True)
+               
+               MoveLeftMidRight(Y)
+               Preconditions: MidRight(True)
+               Postconditions: MidCenter(True)
+               
+               MoveDownTopLeft(Y)
+               Preconditions: TopLeft(True)
+               Postconditions: MidLeft(True)
+               
+               MoveRightTopLeft(Y)
+               Preconditions: TopLeft(True)
+               Postconditions: TopRight(True)
+
+               MoveDownTopCenter(Y)
+               Preconditions: TopCenter(True)
+               Postconditions: MidCenter(True)
+               
+               MoveLeftTopCenter(Y)
+               Preconditions: TopCenter(True)
+               Postconditions: TopLeft(True)
+
+               MoveRightTopCenter(Y)
+               Preconditions: TopCenter(True)
+               Postconditions: TopRight(True)
+
+               MoveLeftTopRight(Y)
+               Preconditions: TopRight(True)
+               Postconditions: TopCenter(True)
+
+               MoveDownTopRight(Y)
+               Preconditions: CenterRight(True)
+               Postconditions: TopRight(True)
+               
